@@ -1,0 +1,31 @@
+{
+  "name": "Consuming-Api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PauloBittencourt/Consuming-Api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PauloBittencourt/Consuming-Api/issues"
+  },
+  "homepage": "https://github.com/PauloBittencourt/Consuming-Api#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
